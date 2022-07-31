@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    
+    arr = []
+    for i in range(n):
+        if n>=0:
+            arr.append(i)
+            
+    for i2 in arr:
+        print(i2**2)
